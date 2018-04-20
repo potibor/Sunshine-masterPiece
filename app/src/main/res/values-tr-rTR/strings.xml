@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sunshine</string>
+    <string name="current_date">Bugün</string>
+    <string name="description_String">Açık</string>
+    <string name="saveBtn">GÖNDER</string>
+    <string name="cancelBtn">İPTAL</string>
+    <string name="fragment_settings_save">Kaydet</string>
+    <string name="card_weather_day">Yarın</string>
+    <string name="card_weather_description">Açık</string>
+    <string name="languageBtn">Dil</string>
+    <string name="choose_language">Dil Seç</string>
+    <string name="english">İngilizce</string>
+    <string name="turkish">Türkçe</string>
+</resources>

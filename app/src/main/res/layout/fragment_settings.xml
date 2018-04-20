@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hasanozanal.sunshine.Fragments.SettingsFragment">
+    <RelativeLayout
+        android:id="@+id/settingsActionBarId"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@android:color/holo_blue_bright">
+
+        <TextView
+            android:id="@+id/fragment_settings_savebtn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="15dp"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:text="@string/fragment_settings_save" />
+    </RelativeLayout>
+    <Switch
+        android:id="@+id/settings_fragment_switch_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="F"
+        android:layout_toStartOf="@+id/settings_fragment_switch_btn"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="15dp"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C"
+        android:layout_toEndOf="@+id/settings_fragment_switch_btn"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="15dp"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/settings_fragment_language_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/settings_fragment_switch_btn"
+        android:layout_centerHorizontal="true"
+        android:text="@string/languageBtn"
+        android:layout_marginTop="15dp"/>
+
+</RelativeLayout>

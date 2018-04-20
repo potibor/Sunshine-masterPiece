@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:padding="12dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/list_row_cityNameId"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:text="Istanbul" />
+
+        <TextView
+            android:id="@+id/list_row_tempId"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignBaseline="@+id/list_row_minTempId"
+            android:layout_alignBottom="@+id/list_row_minTempId"
+            android:layout_marginEnd="11dp"
+            android:layout_toStartOf="@+id/list_row_minTempId"
+            android:gravity="top|center"
+            android:text="17"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/list_row_minTempId"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="24dp"
+            android:layout_toStartOf="@+id/list_row_weatherImgId"
+            android:gravity="bottom"
+            android:text="5"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/list_row_weatherImgId"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignBottom="@+id/list_row_tempId"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/list_row_tempId"
+            android:layout_marginEnd="13dp"
+            android:src="@drawable/ic_mr_button_connecting_21_dark" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

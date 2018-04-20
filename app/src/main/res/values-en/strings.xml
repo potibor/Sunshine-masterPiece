@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sunshine</string>
+    <string name="current_date">Today, March 27</string>
+    <string name="description_String">Clear</string>
+    <string name="saveBtn">SEND</string>
+    <string name="cancelBtn">CANCEL</string>
+    <string name="fragment_settings_save">Save</string>
+    <string name="card_weather_day">Tomorrow</string>
+    <string name="card_weather_description">Clear</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="languageBtn">Language</string>
+    <string name="english">English</string>
+    <string name="turkish">Turkish</string>
+</resources>

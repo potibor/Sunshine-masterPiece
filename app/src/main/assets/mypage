@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Basic HTML Table</h2>
+
+<table style="width:100%">
+    <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+    </tr>
+    <tr>
+        <td>Ozan</td>
+        <td>Al</td>
+        <td>22</td>
+    </tr>
+    <tr>
+        <td>Mert</td>
+        <td>Vardar</td>
+        <td>22</td>
+    </tr>
+</table>
+
+</body>
+</html>
+

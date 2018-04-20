@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="275dp"
+    android:layout_height="100dp"
+    android:layout_gravity="center"
+    android:padding="5dp">
+
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:paddingStart="15dp"/>
+    <LinearLayout
+        android:id="@+id/custom_popup_button_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+    <Button
+        android:id="@+id/custom_popup_send_button"
+        android:layout_width="135dp"
+        android:layout_height="match_parent"
+        android:text="@string/saveBtn"
+        android:textSize="12sp"/>
+    <Button
+        android:id="@+id/custom_popup_cancel_button"
+        android:layout_width="135dp"
+        android:layout_height="match_parent"
+        android:text="@string/cancelBtn"
+        android:textSize="12sp"/>
+    </LinearLayout>
+</LinearLayout>

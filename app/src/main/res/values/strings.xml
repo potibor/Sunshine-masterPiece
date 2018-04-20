@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Sunshine</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="current_date">Today, March 27</string>
+    <string name="max_tempTxt" translatable="false">25</string>
+    <string name="min_tempTxt" translatable="false">15</string>
+    <string name="city_nameString" translatable="false">Üsküdar,TR</string>
+    <string name="description_String">Clear</string>
+    <string name="title_activity_maps" translatable="false">Map</string>
+    <string name="saveBtn">SEND</string>
+    <string name="cancelBtn">CANCEL</string>
+    <string name="rainValue" translatable="false">25</string>
+    <string name="fragment_settings_save">Save</string>
+    <string name="card_weather_day">Tomorrow</string>
+    <string name="card_weather_description">Clear</string>
+    <string name="languageBtn">Language</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="english">English</string>
+    <string name="turkish">Turkish</string>
+</resources>
